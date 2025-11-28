@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" data-theme="dark">
+<html lang="ru" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <title>Методика 7 радикалов Пономаренко — полная таблица</title>
@@ -91,7 +91,9 @@ h1{
 .table-wrapper{
     border-radius:14px;
     border:1px solid var(--border);
-    padding:8px;
+    padding:0;
+    max-height:85vh;
+    overflow-y:auto;
     overflow-x:auto;
     background:var(--card);
 }
@@ -101,7 +103,7 @@ h1{
     justify-content:space-between;
     align-items:baseline;
     gap:8px;
-    margin-bottom:6px;
+    margin:6px 8px;
     font-size:0.8rem;
     color:var(--muted);
 }
@@ -131,7 +133,7 @@ th{
     letter-spacing:0.04em;
     position:sticky;
     top:0;
-    z-index:5;
+    z-index:50;
 }
 
 th:first-child, td:first-child{
